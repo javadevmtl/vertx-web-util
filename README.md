@@ -10,11 +10,6 @@ Annotations are similar to JAX-RS.
 @Path("/api")
 public class TestRestVerticle extends AbstractRestVerticle {
 
-	// Convenience method so you can run it in your IDE
-	public static void main(String[] args) {
-		Runner.runExample(TestRestVerticle.class);
-	}
-	
 	public void start(Future<Void> startFuture) {
 		httpOptions.setPort(8080);
 

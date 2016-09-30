@@ -1,5 +1,15 @@
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Gradle
 .gradle
-build/
+/build/
+
+# Make sure user doesn't commit their specific Gradle settings.
+gradle.properties
 
 # Ignore Gradle GUI config
 gradle-app.setting
